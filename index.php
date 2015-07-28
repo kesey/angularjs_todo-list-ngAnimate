@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/todo.css">
         <link rel="stylesheet" href="css/animate.css">
+		<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.4.2/angular-animate.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
     </head>
     <body ng-app="myApp">
         <section id="todoapp" ng-controller="TodoCtrl">
@@ -38,11 +42,7 @@
                     <li><a href="#/done" ng-class="{selected: location.path() == '/done'}">Faites</a></li>
                 </ul>
             </footer>
-        </section>
-        <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
-        <script type="text/javascript" src="https://code.angularjs.org/1.4.2/angular-animate.min.js"></script>
-        <script type="text/javascript" src="js/app.js"></script>
+        </section>        
     </body>
 </html>
 
